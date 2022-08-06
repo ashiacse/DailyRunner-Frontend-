@@ -1,0 +1,307 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+  .marquee-headlines {
+    width: 10%;
+  }
+
+  .online-servey-form label {
+    padding: 2px !important;
+  }
+
+  .sidebar-newsfeed-area ul li {
+    width: 100%;
+  }
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .sidebar-newsfeed-area ul li {
+    width: 100%;
+  }
+
+  .header-social a {
+    margin-right: 5px;
+  }
+
+  /* new nav bar  */
+  #menu li {
+    width: 30%;
+  }
+
+  .category-news-card a>img {
+    height: 150px;
+  }
+
+  .sidebar-newsfeed-area {
+    margin-top: 15px;
+  }
+
+  .header-topbar form {
+    position: absolute;
+    top: 100%;
+    padding: 0;
+    right: 14.8%;
+    display: flex;
+    width: 70.3%;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+  }
+
+  .header-topbar form input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .header-topbar form button {
+    position: absolute;
+    right: 5px;
+    border: none;
+  }
+
+  .header-topbar {
+    position: relative;
+  }
+
+  .header-social {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+  }
+
+  .header-area {
+    padding-bottom: 100px;
+  }
+
+
+  .category-news-card h6 {
+    padding: 9px 3px !important;
+  }
+
+  .marquee-headlines {
+    width: 13%;
+  }
+
+  .left-card-img img {
+    height: 300px;
+  }
+
+  .online-servey-form label {
+    font-size: 14px !important;
+    padding-right: 24px !important;
+  }
+
+  nav {
+    margin-top: -50px !important;
+  }
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+  nav {
+    margin-top: 50px;
+  }
+  .header-topbar form {
+    position: absolute;
+    display: none;
+  }
+
+  .header-topbar {
+    text-align: center;
+  }
+
+  .header-social.m-1 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .header-topbar form {
+    position: absolute;
+    display: none;
+  }
+
+  .header-topbar {
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 60px !important;
+  }
+
+
+  #menu li {
+    width: 100%;
+  }
+
+  .header-topbar form {
+    position: absolute;
+    top: 100%;
+    padding: 0;
+    left: 3.2%;
+    display: flex;
+    width: 93.6%;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    /* position: absolute; */
+  }
+
+  .header-topbar form input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .header-topbar form button {
+    position: absolute;
+    right: 5px;
+    border: none;
+  }
+
+  .header-topbar {
+    position: relative;
+  }
+
+  .header-social {
+    width: 100%;
+    text-align: center;
+  }
+
+  .card.youtube-iframe {
+    margin-top: 43px;
+  }
+
+  iframe {
+    height: 300px;
+  }
+
+  .social-media-links {
+    padding-bottom: 100px;
+  }
+
+  .sidebar-newsfeed-area ul li {
+    width: 50%;
+  }
+
+  .left-card-img img, .post-heading img {
+    height: 250px !important;
+    object-fit: cover;
+  }
+  .card-img-overlay h5 {
+    font-size: 14px;
+  }
+  .image-container img, .category-news-card a>img {
+    height: 120px;
+  }
+  .card-img-overlay h6, .category-news-card a>h6 {
+    font-size: 12px;
+  }
+  .post-details img {
+    height: 250px !important;
+  }
+  nav {
+    margin-top: 50px !important;
+    margin-bottom:-10px !important;
+  }
+  .news-left {
+    margin: 0;
+    margin-top: -17px;
+  }
+}
+
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+ 
+  .social-media-links {
+    padding-bottom: 100px;
+  }
+
+  .sidebar-newsfeed-area ul li {
+    width: 50%;
+  }
+
+  .header-social a {
+    margin-right: 5px;
+  }
+
+  .header-social {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 50px;
+  }
+
+  .header-topbar {
+    text-align: center;
+  }
+
+  .header-social.m-1 {
+    text-align: center;
+    width: 100%;
+  }
+
+  /* new nav bar  */
+  .header-topbar form {
+    position: absolute;
+    top: 100%;
+    padding: 0;
+    left: 8%;
+    display: flex;
+    width: 84%;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    /* position: absolute; */
+  }
+  .header-topbar form input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .header-topbar form button {
+    position: absolute;
+    right: 5px;
+    border: none;
+  }
+
+  .header-topbar {
+    position: relative;
+  }
+
+
+  #menu li {
+    width: 100%;
+  }
+
+  /* new nav bar end */
+  .category-news-card h6 {
+    padding: 9px 3px !important;
+  }
+
+  .marquee-headlines {
+    width: 24%;
+  }
+
+
+}
